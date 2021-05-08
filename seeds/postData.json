@@ -1,7 +1,7 @@
 [
     {
       "content": "CSS is a language used to provide styles to an application or webpage",
-      "user_id": 2,
+      "user_id": 1,
       "title": "What is CSS?" 
     },
     {
@@ -11,7 +11,7 @@
     },
     {
       "content": "MySQL is awesome! I love databasing",
-      "user_id": 2,
+      "user_id": 3,
       "title": "MySQL" 
     }
 ]
