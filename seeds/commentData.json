@@ -1,0 +1,19 @@
+[
+    {
+      "comment": "Awesome article!",
+      "user_id": 2,
+      "post_id": 1
+    },
+    {
+      "comment": "I love JS!",
+      "user_id": 3,
+      "post_id": 2
+    
+    },
+    {
+      "comment": "Databases are fun!",
+      "user_id": 1,
+      "post_id": 3
+      
+    }
+]

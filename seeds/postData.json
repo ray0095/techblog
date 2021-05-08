@@ -1,0 +1,17 @@
+[
+    {
+      "content": "CSS is a language used to provide styles to an application or webpage",
+      "user_id": 2,
+      "title": "What is CSS?" 
+    },
+    {
+      "content": "Javascript is a programming language",
+      "user_id": 2,
+      "title": "What is Javascript?" 
+    },
+    {
+      "content": "MySQL is awesome! I love databasing",
+      "user_id": 2,
+      "title": "MySQL" 
+    }
+]

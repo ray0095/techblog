@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Connor Todd",
+        "email": "ct@gmail.com",
+        "password": "password"
+    },
+    {
+        "name": "Rachel Strong",
+        "email": "rs@gmail.com",
+        "password": "password2"
+    },
+    {
+        "name": "Joe Wood",
+        "email": "jw@gmail.com",
+        "password": "password3"
+    }
+]
