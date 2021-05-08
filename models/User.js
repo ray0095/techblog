@@ -1,4 +1,3 @@
-//Configure Model for User Database
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
@@ -34,7 +33,7 @@ User.init(
       allowNull: false,
       validate: {
         len: [8],
-      },//Where are you located? What are some ideal destinations, pro tip for your location
+      },
     },
   },
   {
@@ -42,7 +41,11 @@ User.init(
       beforeCreate: async (newUserData) => {
         newUserData.password = await bcrypt.hash(newUserData.password, 10);
         return newUserData;
-      },//check in with Jonathan on hooks :) 
+      },
+      beforeUpdate: async (updatedUserData) => {
+        updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
+        return updatedUserData;
+      },
     },
     sequelize,
     timestamps: false,
